@@ -24,3 +24,17 @@
 .cta:hover {
   background-color: var(--button-hover-backround);
 }
+
+@media screen and (max-width: 768px) {
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+  }
+
+  .heroImage {
+    width: 400;
+    height: 400;
+  }
+}

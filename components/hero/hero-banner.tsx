@@ -17,7 +17,13 @@ export default function HeroBanner() {
         <button className={`btn ${classes.cta}`}>Browse Murti&apos;s</button>
       </div>
       <div className={classes.heroImage}>
-        <Image src={Hero1} alt="hero1" height={500} width={500} />
+        <Image
+          src={Hero1}
+          alt="hero1"
+          height={500}
+          width={500}
+          className={classes.heroImage}
+        />
       </div>
     </section>
   );
