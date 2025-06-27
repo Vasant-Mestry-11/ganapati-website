@@ -1,15 +1,18 @@
 import Link from "next/link";
 import NavLinks from "../nav-links/nav-links";
+import classes from "./main-header.module.css";
 
 export default function MainHeader() {
   return (
-    <header>
+    <header className={classes.header}>
       {/* logo */}
-      <Link href="/">Ganpati Logo</Link>
+      <Link href="/" className={classes.logo}>
+        Ganpati Logo
+      </Link>
 
       {/* navigation */}
       <nav>
-        <ul>
+        <ul className={classes.navigations}>
           <li>
             <NavLinks href="/">Home</NavLinks>
           </li>
