@@ -3,6 +3,7 @@ import NavLinks from "../nav-links/nav-links";
 import classes from "./main-header.module.css";
 import logo from "@/public/images/logo.png";
 import Image from "next/image";
+import { FiShoppingCart } from "react-icons/fi";
 
 export default function MainHeader() {
   return (
@@ -27,7 +28,9 @@ export default function MainHeader() {
         </ul>
       </nav>
 
-      <div>Cart</div>
+      <div className={classes.cart}>
+        <span>Cart</span> <FiShoppingCart className={classes.cartIcon} />
+      </div>
     </header>
   );
 }
