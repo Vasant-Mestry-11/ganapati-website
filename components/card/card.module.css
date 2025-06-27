@@ -22,6 +22,11 @@
   font-weight: bolder;
 }
 
+.addToCart:disabled {
+  cursor: no-drop;
+  background-color: #6b6867
+}
+
 @media screen and (max-width: 768px) {
   .cardImage {
     width: 300px;

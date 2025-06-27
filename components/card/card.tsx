@@ -37,7 +37,9 @@ export default function Card({
       </div>
       <div className={classes.actions}>
         <p className={classes.price}>Rs.{price}</p>
-        <button className={`btn ${classes.addToCart}`}>Add to Cart</button>
+        <button disabled className={`btn ${classes.addToCart}`}>
+          Out of Stock
+        </button>
       </div>
     </section>
   );
