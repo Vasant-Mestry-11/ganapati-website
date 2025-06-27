@@ -43,3 +43,19 @@ a {
 .container {
   padding: 4rem;
 }
+
+.btn {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: var(--button-backround);
+  font-size: 1rem;
+  outline: transparent;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--button-hover-backround);
+}

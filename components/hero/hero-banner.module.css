@@ -19,10 +19,6 @@
   border-radius: 1rem;
   background-color: var(--button-backround);
   font-size: 1.2rem;
-  outline: transparent;
-  border: none;
-  color: var(--white);
-  cursor: pointer;
 }
 
 .cta:hover {

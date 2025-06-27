@@ -14,7 +14,7 @@ export default function HeroBanner() {
           Handcrafted Eco-friendly Ganapti <br />
           Murti&apos;s Delivered to Your Doorstep
         </p>
-        <button className={classes.cta}>Browse Murti&apos;s</button>
+        <button className={`btn ${classes.cta}`}>Browse Murti&apos;s</button>
       </div>
       <div className={classes.heroImage}>
         <Image src={Hero1} alt="hero1" height={500} width={500} />
