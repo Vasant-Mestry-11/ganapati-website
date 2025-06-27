@@ -9,6 +9,19 @@
   gap: 2rem;
 }
 
+@media screen and (min-width: 1600px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 @media screen and (max-width: 768px) {
   .cards {

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import classes from "./hero-banner.module.css";
 import Hero1 from "../../public/images/hero-image-2.png";
+import Link from "next/link";
 
 export default function HeroBanner() {
   return (
@@ -14,7 +15,9 @@ export default function HeroBanner() {
           Handcrafted Eco-friendly Ganapti <br />
           Murti&apos;s Delivered to Your Doorstep
         </p>
-        <button className={`btn ${classes.cta}`}>Browse Murti&apos;s</button>
+        <Link href="/gallery">
+          <button className={`btn ${classes.cta}`}>Browse Murti&apos;s</button>
+        </Link>
       </div>
       <div className={classes.heroImage}>
         <Image
