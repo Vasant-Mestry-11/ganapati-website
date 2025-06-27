@@ -4,7 +4,7 @@ import Hero1 from "../../public/images/hero-image-2.png";
 
 export default function HeroBanner() {
   return (
-    <section className={classes.banner}>
+    <section className={`container ${classes.banner}`}>
       <div className={classes.heroText}>
         <h2 className={classes.heading}>
           Bring Home <br /> Divinity This <br />
