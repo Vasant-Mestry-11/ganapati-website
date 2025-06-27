@@ -24,7 +24,13 @@ export default function Card({
 }: CardProps) {
   return (
     <section className={classes.card}>
-      <Image src={imageSrc} alt={alt} width={imageWidth} height={imageHeight} />
+      <Image
+        src={imageSrc}
+        alt={alt}
+        width={imageWidth}
+        height={imageHeight}
+        className={classes.cardImage}
+      />
       <div className={classes.card_content}>
         <p className={classes.seating}>{murtiName}</p>
         <p className={classes.size}>{murtiHeight} Ft.</p>
