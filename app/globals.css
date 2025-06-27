@@ -3,7 +3,9 @@
   --foreground: #171717;
   --header-background: rgb(255, 165, 0);
   --hover-background: rgb(255, 190, 70);
-
+  --button-backround: #ff7100ed;
+  --button-hover-backround: #e16500ed;
+  --white: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
