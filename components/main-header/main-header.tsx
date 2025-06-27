@@ -17,7 +17,7 @@ export default function MainHeader() {
             <NavLinks href="/">Home</NavLinks>
           </li>
           <li>
-            <NavLinks href="/gallary">Gallery</NavLinks>
+            <NavLinks href="/gallery">Gallery</NavLinks>
           </li>
           <li>
             <NavLinks href="/contact">Contact</NavLinks>
