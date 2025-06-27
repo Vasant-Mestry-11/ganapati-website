@@ -1,7 +1,5 @@
 import M1 from "@/public/images/gallery/murti-1.png";
 import M2 from "@/public/images/gallery/murti-2.png";
-import M3 from "@/public/images/gallery/murti-3.png";
-import M4 from "@/public/images/gallery/murti-4.png";
 import M5 from "@/public/images/gallery/murti-5.png";
 
 export const MURTI_DETAILS = [
@@ -27,7 +25,7 @@ export const MURTI_DETAILS = [
   },
   {
     id: 103,
-    imageSrc: M3,
+    imageSrc: M2,
     alt: "Murti 3",
     imageWidth: 350,
     imageHeight: 400,
@@ -37,7 +35,7 @@ export const MURTI_DETAILS = [
   },
   {
     id: 104,
-    imageSrc: M4,
+    imageSrc: M5,
     alt: "Murti 3",
     imageWidth: 350,
     imageHeight: 400,

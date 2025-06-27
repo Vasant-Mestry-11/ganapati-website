@@ -1,0 +1,23 @@
+.card {
+  border: 1px solid rgb(140, 140, 140);
+  background-color: #ccc;
+  border-radius: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.card_content{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  margin: 1rem 0 ;
+}
+
+.seating {
+  font-weight: bold;
+}
+
+.price{
+  font-size: 1.5rem;
+  font-weight: bolder;
+}

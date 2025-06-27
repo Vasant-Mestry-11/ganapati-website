@@ -26,8 +26,8 @@ export default function Card({
     <section className={classes.card}>
       <Image src={imageSrc} alt={alt} width={imageWidth} height={imageHeight} />
       <div className={classes.card_content}>
-        <p className={classes.size}>{murtiHeight} Ft.</p>
         <p className={classes.seating}>{murtiName}</p>
+        <p className={classes.size}>{murtiHeight} Ft.</p>
       </div>
       <div className={classes.actions}>
         <p className={classes.price}>Rs.{price}</p>

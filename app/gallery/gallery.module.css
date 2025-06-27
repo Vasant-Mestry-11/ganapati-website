@@ -1,3 +1,10 @@
-.gallery{
+.gallery {
   text-align: center;
+}
+
+.cards {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
 }
