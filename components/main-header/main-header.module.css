@@ -22,3 +22,13 @@
 .cartIcon {
   font-size: 1.5rem;
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .navigations {
+    margin: 2rem 0;
+  }
+}

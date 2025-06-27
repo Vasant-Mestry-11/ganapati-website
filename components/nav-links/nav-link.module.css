@@ -16,3 +16,10 @@
   background-color: var(--hover-background);
   border-radius: 1rem;
 }
+
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+}
